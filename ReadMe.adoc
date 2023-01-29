@@ -1,0 +1,32 @@
+:Author: relrypesan
+:Date: 29/01/2023
+:Revision: 1.0.0
+
+= Project: Bluetooth Configuration
+
+== Step 1: Monte o circuito
+
+Monte o circuito seguindo o diagrama layout.png anexado ao esboço
+
+== Step 2: Carregue o código
+
+Carregue o código contido neste esboço para o seu arduino
+
+=== Folder structure
+
+....
+ bluetooth-controller-hc-05               => Pasta do projeto
+  ├── bluetooth-controller-hc-05.ino      => Arquivo principal do Arduino
+  ├── layout.png                          => Layout do esquema do projeto
+  └── ReadMe.adoc                         => este arquivo
+....
+
+=== BOM
+Lista de materiais que você precisa para este projeto.
+
+|===
+| ID | Nome                   | Quantidade
+| A1 | Arduino UNO            | 1
+| R1 | Resistor 220Ω          | 3
+| B1 | Módulo Bluetooth HC-05 | 1
+|===
