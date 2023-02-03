@@ -17,22 +17,6 @@ void setup() {
 }
 
 void loop() {
-  // Verifica se existe informações a serem enviadas do arduino para o módulo bluetooth.
-  // if (Serial.available()) {
-  //   char value = Serial.read();
-  //   Serial.print(value);
-  //   delay(10);
-  //   bluetooth.write(value);
-  // }
-  
-  // // Verifica se o módulo bluettoth recebeu algum dado para o arduino ler.
-  // if (bluetooth.available()) {
-  //   while(bluetooth.available()) { // enquanto tiver dados a receber continua no loop.
-  //     command += (char)bluetooth.read();
-  //   }
-  //   Serial.println(command);
-  //   command = "";
-  // }
   //Check received a byte from hardware serial
   if (Serial.available()) {
     char r = Serial.read(); //Read and save the byte
